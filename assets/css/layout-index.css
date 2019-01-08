@@ -1,0 +1,787 @@
+@media screen and (max-width: 359px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+  		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 50%;
+	}
+
+	.dos{
+		width: 50%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 300px;
+	}
+
+	.menu>li{
+		display: list-item;
+	}
+
+	.title-wrapper{
+		padding-top: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		justify-content: center;
+  		align-items: center;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 395px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+  		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+		height: 95%;
+	}
+
+	.uno{
+		width: 50%;
+	}
+
+	.dos{
+		width: 50%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 300px;
+	}
+
+	.menu>li{
+		display: list-item;
+	}
+
+	.title-wrapper{
+		padding-top: 14%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		justify-content: center;
+  		align-items: center;
+	}
+}
+
+@media screen and (min-width: 396px) and (max-width: 513px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 50%;
+	}
+
+	.dos{
+		width: 50%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 300px;
+	}
+
+	.menu>li{
+		display: list-item;
+	}
+
+	.title-wrapper{
+		padding-top: 25%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		justify-content: center;
+  		align-items: center;
+	}
+}
+
+@media screen and (min-width: 514px) and (max-width: 599px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 300px;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 25%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		padding-top: 10%;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 25%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		padding-top: 0%;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+		height: 100%;
+	}
+
+	.uno{
+		width: 25%;
+		height: 100%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 15%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		padding-top: 3%;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 662px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 15%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		padding-top: 5%;
+	}
+}
+
+@media screen and (min-width: 663px) and (max-width: 1023px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		padding-top: 0%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) and (orientation:portrait) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 25%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		width: 50%;
+		padding-top: 5%;
+	}
+
+	#servicios{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		width: 50%;
+		padding-top: 5%;
+	}
+
+	#servicios{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1440px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		width: 50%;
+		padding-top: 2%;
+	}
+
+	#servicios{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) and (orientation:landscape) {
+	body, html{
+		height: 100%;
+		margin: 0;
+		width: 100%;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none; 
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	.uno{
+		width: 25%;
+	}
+
+	.dos{
+		width: 65%;
+	}
+
+	.logo{
+		float: left;
+		width: 300px;
+		margin-left: 25%;
+	}
+
+	.menu{
+		display: inline-block;
+		float: right;
+		width: 100%;
+	}
+
+	.menu>li{
+		display: inline-block;
+	}
+
+	.title-wrapper{
+		padding-top: 15%;
+		text-align: center;
+		width: 100%;
+	}
+
+	#boton-servicios{
+		width: 50%;
+	}
+
+	#servicios{
+		width: 50%;
+	}
+
+	.productos {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,181 @@
+
+	body{
+		font-family: sans-serif;
+	}
+
+	.black{
+		color: #000;
+	}
+
+	.nav{
+		background-color: #b8d2f6; 
+	}
+
+	.menu{
+		color: #000;
+		padding-top: 40px;
+	}
+
+	.menu>li{
+		font-size: 20px;
+		padding-right: 10px;
+	}
+
+	.menu li:hover{
+		color: #00b0f0;
+	}
+
+	header{
+		background-image: url('../images/header.jpg');
+		background-position: center center;
+		background-size: cover;
+		height: 552px;
+		width: 100%;
+	}
+
+	.header-title{
+		background-color: #b8d2f6; 
+		color: #000;
+		font-size: 45px;
+		font-weight: bold;
+		margin: auto;
+		text-transform: uppercase;
+		width: 380px;
+	}
+
+	.header-title-blue{
+		background-color: #b8d2f6; 
+		color: #00b0f0;
+		font-size: 45px;
+		font-weight: bold;
+		margin: auto;
+		text-transform: uppercase;
+		width: 400px;
+		display: inline;
+	}
+
+	.header-title-and{
+		background-color: #b8d2f6; 
+		color: #000;
+		font-size: 45px;
+		font-weight: bold;
+		margin: auto;
+		text-transform: uppercase;
+		width: 400px;
+		display: inline;
+	}
+
+	.header-title-green{
+		background-color: #b8d2f6; 
+		color: #00cc00;
+		font-size: 45px;
+		font-weight: bold;
+		margin: auto;
+		text-transform: uppercase;
+		width: 400px;
+		display: inline;
+	}
+
+	.header-subtitle{
+		background-color: #b8d2f6; 
+		color: #000;
+		font-size: 25px;
+		font-weight: 100;
+		margin: 50px auto 0 auto;
+		text-transform: uppercase;
+		width: 270px;
+	}
+
+	.carta{
+		background-color: #b8d2f6;
+		height: 250px;
+		width: 100%;
+	}
+
+	.carta-title{
+		font-size: 30px;
+		font-weight: 100;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.intro > p{
+		color: #000;
+		line-height: 40px;
+		margin-top: 10px;
+		font-size: 25px;
+	}
+
+	.carta-button{
+		border: 5px solid #000;
+		color: #000;
+		font-size: 30px;
+		padding: 10px 30px 10px 30px;
+		text-transform: uppercase;
+	}
+
+	.right{
+		text-align: center;
+		padding-top: 60px;
+	}
+
+	footer{
+		background-color: #b8d2f6;
+		height: 70px;
+	}
+
+	.footer-menu{
+		padding-top: 30px;
+	}
+
+	.footer-menu > li{
+		color: #000;
+		font-size: 13px;
+		font-weight: 100;
+		display: inline-block;
+		padding-right: 10px;
+	}
+
+	.fondo{
+		background-color: #b8d2f6;
+	}
+
+	.titulo-servicios h1{
+		padding: 10px center 10px center;
+		color: #000;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.button {
+		background-color:  #b8d2f6;
+		border-radius: 12px;
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 24px;
+		cursor: pointer;
+		float: left;
+		width: 50%;
+	}
+
+	.button:hover {
+		background-color: #00b0f0;
+	}
+
+	.ir-arriba {
+		border-radius: 50px;
+		border-color: #000;
+		display:none;
+		padding:20px;
+		background:#b8d2f6;
+		font-size:30px;
+		color:#000;
+		cursor:pointer;
+		position: fixed;
+		bottom:30px;
+		right:10px;
+	}
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+	<meta name="description" content="Casaservicios Blue & Green">
+	<meta name="author" content="David Lopez">
+	<meta name="keywords" content="casaservicios Blue & Green saltillo">
+	<title>Blue & Green | Inicio</title>
+	<link rel="stylesheet" media="screen" href="assets/css/layout-index.css">
+	<link rel="stylesheet" media="screen" href="assets/css/theme-index.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<nav class="nav">
+		<div class="container" id="nav">
+			<div class="container uno">
+				<div class="logo">
+					<img class="imagen-logo" src="assets/images/logo.png" alt="logo">
+				</div>
+			</div>
+			<div class="container dos">
+				<ul class="menu">
+					<li><a href="">Inicio</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<div class="container" id="header">
+			<div class="title-wrapper">
+				<h1 class="header-title">Casaservicios</h1>
+				<span class="header-title-blue">Blue </span>
+				<span class="header-title-and">&</span>
+				<span class="header-title-green"> Green</span>
+				<h3 class="header-subtitle">Proyectos Verdes</h3>
+			</div>
+		</div>
+	</header>
+
+	<section class="carta">
+		<div class="container">
+			<div class="container" id="servicios">
+				<div class="intro" style="text-align: center;">
+					<h3 class="carta-title black">Conoce nuestros servicios</h3>
+					<p>
+						Sistemas de presión, calefacción, tratamiento de agua, automatización, mantenimiento, etc...
+					</p>
+				</div>
+			</div>
+			<div class="container" id="boton-servicios">
+				<div class="intro-right">
+					<a class="carta-button" href="servicios.html">Servicios</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="height: 100%;">
+		<div class="imagen-casa">
+			<div id="panel-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-panel"))' onclick='setActive(document.getElementById("selector-panel"))'></div>
+			<div id="calentador-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-calentador"))' onclick='setActive(document.getElementById("selector-calentador"))'></div>
+			<div id="piso-radiante" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-pisoradiante"))' onclick='setActive(document.getElementById("selector-pisoradiante"))'></div>
+			<div id="alberca" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-alberca"))' onclick='setActive(document.getElementById("selector-alberca"))'></div>
+			<div id="suavizador" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-suavizador"))' onclick='setActive(document.getElementById("selector-suavizador"))'></div>
+			<div id="suavizador-2" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-suavizador"))' onclick='setActive(document.getElementById("selector-suavizador"))'></div>
+			<div id="caldera" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-caldera"))' onclick='setActive(document.getElementById("selector-caldera"))'></div>
+			<div id="caldera-2" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-caldera"))' onclick='setActive(document.getElementById("selector-caldera"))'></div>
+			<div id="radiador" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-radiador"))' onclick='setActive(document.getElementById("selector-radiador"))'></div>
+			<div id="riego" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-riego"))' onclick='setActive(document.getElementById("selector-riego"))'></div>
+			<div id="riego-2" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-riego"))' onclick='setActive(document.getElementById("selector-riego"))'></div>
+			<div class="container" id="casa">
+				<img id="imagen-casa" src="assets/images/modelo-casa.png">
+			</div>
+		</div>
+		<div class="selector">
+			<div class="circle" id="selector-panel" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-calentador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-pisoradiante" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-alberca" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-suavizador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-caldera" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-radiador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-riego" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+		</div>
+		<div class="contenedor" id="descripcion-casa">
+			<div id="producto">
+				<img id="imagen-producto" src="assets/images/logo.png" style="height: 60px;">
+			</div>
+			<div class="titulo-producto">
+				<h3 id="contenido-titulo">Conoce nuestros servicios</h3> 
+			</div>
+			<div class="descripcion-producto">
+				<p id="contenido-descripcion">
+					Pasa el mouse sobre los elementos de la casa o da click en los círculos para conocer mas de ellos.
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var gotClicked = false;
+			var activo;
+			var ultimoActivo;
+
+			function setActive(e){
+				if (gotClicked == true) {
+					ultimoActivo = activo;
+					if (ultimoActivo.id.includes("selector-")) {
+						document.getElementById(ultimoActivo.id).style.background = "white";
+					}
+				}
+				activo = document.getElementById(e.id);
+				hover(activo);
+				gotClicked = true;
+			}
+
+			function setWhite(e){
+				if (e.id.includes("selector-")) {
+					document.getElementById(activo.id).style.background = "white";
+				}
+			}
+
+			function casaColor(e){
+				if (gotClicked == false) {
+					document.getElementById("imagen-casa").src = "assets/images/modelo-casa.png";
+					document.getElementById("imagen-producto").src = "assets/images/logo.png";
+					document.getElementById("contenido-titulo").innerHTML = "Conoce nuestros servicios";
+					document.getElementById("contenido-descripcion").innerHTML = "Pasa el mouse sobre los elementos de la casa para conocer mas de ellos.";
+					document.getElementById(e.id).style.background = "white";
+				}else{
+					document.getElementById(e.id).style.background = "white";
+					setActive(activo);
+				}
+			}	
+
+			function hover(e) {
+				if (e.id == "panel-solar" || e.id == "selector-panel") {
+  					document.getElementById("imagen-casa").src = "assets/images/panel.png";
+  					document.getElementById("imagen-producto").src = "assets/images/producto-panel.png";
+  					document.getElementById("selector-panel").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Panel Solar";
+					document.getElementById("contenido-descripcion").innerHTML = "Los módulos fotovoltaicos son los encargados de trasformar la radiación solar en corriente directa.";
+				}else if (e.id == "piso-radiante" || e.id == "selector-pisoradiante") {
+					document.getElementById("imagen-casa").src = "assets/images/piso-radiante.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-radiante.png";
+					document.getElementById("selector-pisoradiante").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Piso Radiante";
+					document.getElementById("contenido-descripcion").innerHTML = "Sistema de calefacción que utiliza el suelo como emisor de calor a base de agua caliente.";
+				}else if (e.id == "alberca" || e.id == "selector-alberca") {
+					document.getElementById("imagen-casa").src = "assets/images/alberca.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-alberca.png";
+					document.getElementById("selector-alberca").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Piscina y Spa";
+					document.getElementById("contenido-descripcion").innerHTML = "Instalación y venta de productos para alberca.";
+				}else if (e.id == "suavizador" || e.id == "selector-suavizador") {
+					document.getElementById("imagen-casa").src = "assets/images/suavizador.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-suavizador.png";
+					document.getElementById("selector-suavizador").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Suavizador De Agua";
+					document.getElementById("contenido-descripcion").innerHTML = "Su función es tratar el agua para reducir el contenido de sales minerales y sus incrustaciones en tuberías y depósitos de agua.";
+				}else if (e.id == "suavizador-2" || e.id == "selector-suavizador") {
+					document.getElementById("imagen-casa").src = "assets/images/suavizador.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-suavizador.png";
+					document.getElementById("selector-suavizador").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Suavizador De Agua";
+					document.getElementById("contenido-descripcion").innerHTML = "Su función es tratar el agua para reducir el contenido de sales minerales y sus incrustaciones en tuberías y depósitos de agua.";
+				}else if (e.id == "caldera" || e.id == "selector-caldera") {
+					document.getElementById("imagen-casa").src = "assets/images/caldera.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-caldera.png";
+					document.getElementById("selector-caldera").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Caldera De Gas";
+					document.getElementById("contenido-descripcion").innerHTML = "Su objetivo de calentar agua, en este caso utilizando el gas como combustible.";
+				}else if (e.id == "caldera-2" || e.id == "selector-caldera") {
+					document.getElementById("imagen-casa").src = "assets/images/caldera.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-caldera.png";
+					document.getElementById("selector-caldera").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Caldera De Gas";
+					document.getElementById("contenido-descripcion").innerHTML = "Su objetivo de calentar agua, en este caso utilizando el gas como combustible.";
+				}else if (e.id == "radiador" || e.id == "selector-radiador") {
+					document.getElementById("imagen-casa").src = "assets/images/piso-radiante.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-radiador.png";
+					document.getElementById("selector-radiador").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Calefacción por radiador";
+					document.getElementById("contenido-descripcion").innerHTML = "Su función es calentar la casa utilizando el calor emitido por el agua.";
+				}else if (e.id == "riego" || e.id == "selector-riego") {
+					document.getElementById("imagen-casa").src = "assets/images/riego.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-riego.png";
+					document.getElementById("selector-riego").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Sistema de riego";
+					document.getElementById("contenido-descripcion").innerHTML = "Intalación y automatización del riego residencial e industrial.";
+				}else if (e.id == "riego-2" || e.id == "selector-riego") {
+					document.getElementById("imagen-casa").src = "assets/images/riego.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-riego.png";
+					document.getElementById("selector-riego").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Sistema de riego";
+					document.getElementById("contenido-descripcion").innerHTML = "Intalación y automatización del riego residencial e industrial.";
+				}else if (e.id == "calentador-solar" || e.id == "selector-calentador") {
+					document.getElementById("imagen-casa").src = "assets/images/calentador-solar.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-calentador.png";
+					document.getElementById("selector-calentador").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Calentador Solar";
+					document.getElementById("contenido-descripcion").innerHTML = "Su función es calentar el agua por medio del calor emitido por el sol.";
+				}
+			}
+		</script>
+	</section>
+</body>

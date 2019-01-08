@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Casaservicios Blue & Green">
+	<meta name="author" content="David Lopez">
+	<meta name="keywords" content="casaservicios Blue & Green saltillo servicios piso radiante paneles solares">
+	<title>Blue & Green | Servicios</title>
+	<link rel="stylesheet" href="assets/css/layout-servicios.css">
+	<link rel="stylesheet" href="assets/css/theme-servicios.css">
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+
+<style type="text/css">
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	min-height: 600px;
+}
+body {
+	background-color: #e5effc;
+	height: 100%;
+	font-family: 'roboto', 'helvetica neue', arial, sans-serif;
+}
+.carousel {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.carousel:hover .slide:after,
+.carousel:hover .counter,
+.carousel:hover .slide:before {
+	opacity: 1;
+}
+.slide {
+	float: right;
+	position: absolute;
+	z-index: 1;
+	width: 600px;
+	height: 400px;
+	background-color: #eee;
+	text-align: center;
+	transition: opacity 0.4s;
+	opacity: 1;
+}
+.slide:before {
+	content: attr(annot);
+	display: block;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	color: rgba(255,255,255,0.9);
+	font-size: 14px;
+	font-weight: 300;
+	z-index: 12;
+	opacity: 0;
+	transition: opacity 0.3s;
+	text-shadow: 0 0 1px #000;
+}
+.slide:after {
+	content: attr(slide);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	transition: opacity 0.3s;
+	width: 100%;
+	height: 80px;
+	opacity: 0;
+	background-image: linear-gradient(transparent, rgba(0,0,0,0.5));
+	text-align: left;
+	text-indent: 549px;
+	line-height: 101px;
+	font-size: 13px;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 0 0 1px #000;
+}
+.counter {
+	position: absolute;
+	bottom: 20px;
+	right: 1px;
+	height: 20px;
+	width: 60px;
+	z-index: 2;
+	text-align: center;
+	color: #fff;
+	line-height: 21px;
+	font-size: 13px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.faux-ui-facia {
+	top: 0;
+	right: 0;
+	float: right;
+	position: absolute;
+	margin-top: 0;
+	z-index: 9;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+.faux-ui-facia:checked {
+	z-index: 8;
+}
+.faux-ui-facia:checked + .slide {
+	opacity: 0;
+}
+.faux-ui-facia:checked:nth-child(1):checked {
+	z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked {
+	float: left;
+	z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked + .slide {
+	opacity: 1;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia {
+	float: left;
+	z-index: 8;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia + .slide {
+	opacity: 0;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia:checked {
+	z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia:checked + .slide {
+	opacity: 1;
+}
+/* --- Intro text --- */
+.intro {
+	padding: 50px 0 60px 0;
+	position: center;
+	text-align: center;
+	color: #293137;
+	margin: auto;
+	width: 100%;
+}
+.intro .intro__title {
+	position: relative;
+	font-weight: 200;
+	font-size: 32px;
+	color: #000;
+	margin: 0 auto;
+}
+.intro .intro__body {
+	color: #00b0f0;
+	position: relative;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 300;
+	margin: 0 auto;
+}
+</style>
+
+<body>
+	<nav class="nav">
+		<a name="inicio"></a>
+		<div class="container">
+			<div class="logo">
+				<img src="assets/images/logo.png" alt="logo">
+			</div>
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Servicios</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<span class="ir-arriba icon-arrow-up2">^</span>
+
+	<div class="container">
+		<div class="intro">
+			<h1 class="intro__title">Conoce mas de nosotros</h1>
+			<p class="intro__body">Somos una Empresa dedicada a brindar soluciones profesionales y ecológicas para el ramo Residencial, Comercial e Industrial.
+				Estamos enfocados a PROYECTOS VERDES, tratamiento de Agua, Calefacción Solar, Soporte y Mantenimiento, Iluminación LED, Ahorro de Energía.
+			Ponemos nuestra experiencia y certificación a sus órdenes, desde la creación del ante-proyecto hasta la manutención despues de la venta e instalación.</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div style="text-align: center;">
+			<a href="#ancla-sistemaspresion"><button class="button">Sistemas de Presión</button></a>
+			<a href="#ancla-piscina"><button class="button">Piscina y Spa</button></a>
+			<a href="#ancla-tratamiento"><button class="button">Tratamiento de Agua</button></a>
+			<a href="#ancla-calefaccion"><button class="button">Sistema de Calefacción</button></a>
+			<a href="#ancla-riego"><button class="button">Sistema de Riego</button></a>
+			<a href="#ancla-mantenimiento"><button class="button">Instalación y Mantenimiento</button></a>
+		</div>
+	</div>
+
+	<div class="intro">
+		<a name="ancla-sistemaspresion"></a>
+		<h1>Sistemas de Presión</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="4">
+					<img src="assets/images/carousel4.jpg" alt="Slide 4">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="3">
+					<img src="assets/images/carousel3.jpg"  alt="Slide 3">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/carousel2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/carousel1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="4"> / 4</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="intro">
+		<a name="ancla-piscina"></a>
+		<h1>Piscina y Spa</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="3">
+					<img src="assets/images/c2-3.jpg"  alt="Slide 3">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/c2-2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/c2-1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="3"> / 3</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="intro">
+		<a name="ancla-tratamiento"></a>
+		<h1>Sistema de tratamiento de agua</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="3">
+					<img src="assets/images/c3-3.jpg"  alt="Slide 3">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/c3-2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/c3-1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="3"> / 3</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="intro">
+		<a name="ancla-calefaccion"></a>
+		<h1>Sistema de Calefacción</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/c4-2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/c4-1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="2"> / 2</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="intro">
+		<a name="ancla-riego"></a>
+		<h1>Sistema de Riego</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/c5-2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/c5-1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="2"> / 2</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="intro">
+		<a name="ancla-mantenimiento"></a>
+		<h1>Instalación y Mantenimiento</h1>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="carousel">
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="5">
+					<img src="assets/images/c6-5.jpg" alt="Slide 5">
+				</div>	
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="4">
+					<img src="assets/images/c6-4.jpg" alt="Slide 4">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia"> 
+				<div class="slide" slide="3">
+					<img src="assets/images/c6-3.jpg"  alt="Slide 3">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="2">
+					<img src="assets/images/c6-2.jpg"  alt="Slide 2">
+				</div>
+
+				<input type="checkbox" class="faux-ui-facia">
+				<div class="slide" slide="1">
+					<img src="assets/images/c6-1.jpg" alt="Slide 1">
+				</div>
+
+				<div class="counter" count="5"> / 5</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div>
+		<p></p>
+		<p></p>
+	</div>
+	<footer>
+		<div class="container">
+			<ul class="footer-menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
