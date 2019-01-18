@@ -43,28 +43,11 @@
 			</div>
 		</div>
 	</header>
-
-	<section class="carta">
-		<div class="container">
-			<div class="container" id="servicios">
-				<div class="intro" style="text-align: center;">
-					<h3 class="carta-title black">Conoce nuestros servicios</h3>
-					<p>
-						Sistemas de presión, calefacción, tratamiento de agua, automatización, mantenimiento, etc...
-					</p>
-				</div>
-			</div>
-			<div class="container" id="boton-servicios">
-				<div class="intro-right">
-					<a class="carta-button" href="servicios.html">Servicios</a>
-				</div>
-			</div>
-		</div>
-	</section>
 	<section style="height: 100%;">
 		<div class="imagen-casa">
 			<div id="panel-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-panel"))' onclick='setActive(document.getElementById("selector-panel"))'></div>
 			<div id="calentador-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-calentador"))' onclick='setActive(document.getElementById("selector-calentador"))'></div>
+			<div id="osmosis" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-osmosis"))' onclick='setActive(document.getElementById("selector-osmosis"))'></div>
 			<div id="piso-radiante" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-pisoradiante"))' onclick='setActive(document.getElementById("selector-pisoradiante"))'></div>
 			<div id="alberca" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-alberca"))' onclick='setActive(document.getElementById("selector-alberca"))'></div>
 			<div id="suavizador" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-suavizador"))' onclick='setActive(document.getElementById("selector-suavizador"))'></div>
@@ -81,26 +64,30 @@
 		<div class="selector">
 			<div class="circle" id="selector-panel" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-calentador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
+			<div class="circle" id="selector-osmosis" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-pisoradiante" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-alberca" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-suavizador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-caldera" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-radiador" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
 			<div class="circle" id="selector-riego" onmouseover='hover(this)' onmouseout='casaColor(this)' onclick='setActive(this)'></div>
-		</div>
-		<div class="contenedor" id="descripcion-casa">
-			<div id="producto">
-				<img id="imagen-producto" src="assets/images/logo.png" style="height: 60px;">
+		</div >
+			<div class="contenedor" id="descripcion-casa">
+				<div id="producto">
+					<img id="imagen-producto" src="assets/images/logo.png">
+				</div>
+				<div class="titulo-producto">
+					<h3 id="contenido-titulo">Conoce nuestros servicios</h3> 
+				</div>
+				<div class="descripcion-producto">
+					<p id="contenido-descripcion">
+						Pasa el mouse sobre los elementos de la casa o da click en los círculos para conocer mas de ellos.
+					</p>
+				</div>
+				<div  id="conoce-mas">
+					<a href="">Cónoce más.</a>
+				</div>
 			</div>
-			<div class="titulo-producto">
-				<h3 id="contenido-titulo">Conoce nuestros servicios</h3> 
-			</div>
-			<div class="descripcion-producto">
-				<p id="contenido-descripcion">
-					Pasa el mouse sobre los elementos de la casa o da click en los círculos para conocer mas de ellos.
-				</p>
-			</div>
-		</div>
 		<script type="text/javascript">
 			var gotClicked = false;
 			var activo;
@@ -204,6 +191,13 @@
 					document.getElementById("selector-calentador").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Calentador Solar";
 					document.getElementById("contenido-descripcion").innerHTML = "Su función es calentar el agua por medio del calor emitido por el sol.";
+				}
+				else if (e.id == "osmosis" || e.id == "selector-osmosis") {
+					document.getElementById("imagen-casa").src = "assets/images/osmosis.png";
+					document.getElementById("imagen-producto").src = "assets/images/producto-osmosis.png";
+					document.getElementById("selector-osmosis").style.background = "aqua";
+					document.getElementById("contenido-titulo").innerHTML = "Ósmosis inversa";
+					document.getElementById("contenido-descripcion").innerHTML = "Purificación de agua mediante una membrana semipermeable para eliminar iones, moléculas, etc.";
 				}
 			}
 		</script>

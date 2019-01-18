@@ -777,11 +777,5 @@
 	#servicios{
 		width: 50%;
 	}
-
-	.productos {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-	}
 }
 
