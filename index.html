@@ -25,7 +25,7 @@
 			<div class="container dos">
 				<ul class="menu">
 					<li><a href="">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="#ancla-casa">Servicios</a></li>
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</div>
@@ -44,6 +44,7 @@
 		</div>
 	</header>
 	<section style="height: 100%;">
+		<a name="ancla-casa"></a>
 		<div class="imagen-casa">
 			<div id="panel-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-panel"))' onclick='setActive(document.getElementById("selector-panel"))'></div>
 			<div id="calentador-solar" onmouseover='hover(this)' onmouseout='casaColor(document.getElementById("selector-calentador"))' onclick='setActive(document.getElementById("selector-calentador"))'></div>
@@ -81,11 +82,11 @@
 				</div>
 				<div class="descripcion-producto">
 					<p id="contenido-descripcion">
-						Pasa el mouse sobre los elementos de la casa o da click en los círculos para conocer mas de ellos.
+						Pasa el mouse sobre los elementos de la casa o da click en ellos o en los círculos para conocer más.
 					</p>
 				</div>
 				<div  id="conoce-mas">
-					<a href="">Cónoce más.</a>
+					<a id="conoceMas" href="servicios.html#ancla-servicios">Cónoce más.</a>
 				</div>
 			</div>
 		<script type="text/javascript">
@@ -117,6 +118,7 @@
 					document.getElementById("imagen-producto").src = "assets/images/logo.png";
 					document.getElementById("contenido-titulo").innerHTML = "Conoce nuestros servicios";
 					document.getElementById("contenido-descripcion").innerHTML = "Pasa el mouse sobre los elementos de la casa para conocer mas de ellos.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-servicios";
 					document.getElementById(e.id).style.background = "white";
 				}else{
 					document.getElementById(e.id).style.background = "white";
@@ -131,66 +133,77 @@
   					document.getElementById("selector-panel").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Panel Solar";
 					document.getElementById("contenido-descripcion").innerHTML = "Los módulos fotovoltaicos son los encargados de trasformar la radiación solar en corriente directa.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "piso-radiante" || e.id == "selector-pisoradiante") {
 					document.getElementById("imagen-casa").src = "assets/images/piso-radiante.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-radiante.png";
 					document.getElementById("selector-pisoradiante").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Piso Radiante";
 					document.getElementById("contenido-descripcion").innerHTML = "Sistema de calefacción que utiliza el suelo como emisor de calor a base de agua caliente.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-pisoRadiante";
 				}else if (e.id == "alberca" || e.id == "selector-alberca") {
 					document.getElementById("imagen-casa").src = "assets/images/alberca.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-alberca.png";
 					document.getElementById("selector-alberca").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Piscina y Spa";
 					document.getElementById("contenido-descripcion").innerHTML = "Instalación y venta de productos para alberca.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-piscina";
 				}else if (e.id == "suavizador" || e.id == "selector-suavizador") {
 					document.getElementById("imagen-casa").src = "assets/images/suavizador.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-suavizador.png";
 					document.getElementById("selector-suavizador").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Suavizador De Agua";
 					document.getElementById("contenido-descripcion").innerHTML = "Su función es tratar el agua para reducir el contenido de sales minerales y sus incrustaciones en tuberías y depósitos de agua.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-suavizador";
 				}else if (e.id == "suavizador-2" || e.id == "selector-suavizador") {
 					document.getElementById("imagen-casa").src = "assets/images/suavizador.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-suavizador.png";
 					document.getElementById("selector-suavizador").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Suavizador De Agua";
 					document.getElementById("contenido-descripcion").innerHTML = "Su función es tratar el agua para reducir el contenido de sales minerales y sus incrustaciones en tuberías y depósitos de agua.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-suavizador";
 				}else if (e.id == "caldera" || e.id == "selector-caldera") {
 					document.getElementById("imagen-casa").src = "assets/images/caldera.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-caldera.png";
 					document.getElementById("selector-caldera").style.background = "aqua";
-					document.getElementById("contenido-titulo").innerHTML = "Caldera De Gas";
+					document.getElementById("contenido-titulo").innerHTML = "Bomba De Calor";
 					document.getElementById("contenido-descripcion").innerHTML = "Su objetivo de calentar agua, en este caso utilizando el gas como combustible.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "caldera-2" || e.id == "selector-caldera") {
 					document.getElementById("imagen-casa").src = "assets/images/caldera.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-caldera.png";
 					document.getElementById("selector-caldera").style.background = "aqua";
-					document.getElementById("contenido-titulo").innerHTML = "Caldera De Gas";
+					document.getElementById("contenido-titulo").innerHTML = "Bomba de Calor";
 					document.getElementById("contenido-descripcion").innerHTML = "Su objetivo de calentar agua, en este caso utilizando el gas como combustible.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "radiador" || e.id == "selector-radiador") {
 					document.getElementById("imagen-casa").src = "assets/images/piso-radiante.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-radiador.png";
 					document.getElementById("selector-radiador").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Calefacción por radiador";
 					document.getElementById("contenido-descripcion").innerHTML = "Su función es calentar la casa utilizando el calor emitido por el agua.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "riego" || e.id == "selector-riego") {
 					document.getElementById("imagen-casa").src = "assets/images/riego.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-riego.png";
 					document.getElementById("selector-riego").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Sistema de riego";
 					document.getElementById("contenido-descripcion").innerHTML = "Intalación y automatización del riego residencial e industrial.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "riego-2" || e.id == "selector-riego") {
 					document.getElementById("imagen-casa").src = "assets/images/riego.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-riego.png";
 					document.getElementById("selector-riego").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Sistema de riego";
 					document.getElementById("contenido-descripcion").innerHTML = "Intalación y automatización del riego residencial e industrial.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}else if (e.id == "calentador-solar" || e.id == "selector-calentador") {
 					document.getElementById("imagen-casa").src = "assets/images/calentador-solar.png";
 					document.getElementById("imagen-producto").src = "assets/images/producto-calentador.png";
 					document.getElementById("selector-calentador").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Calentador Solar";
 					document.getElementById("contenido-descripcion").innerHTML = "Su función es calentar el agua por medio del calor emitido por el sol.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-calentadorSolar";
 				}
 				else if (e.id == "osmosis" || e.id == "selector-osmosis") {
 					document.getElementById("imagen-casa").src = "assets/images/osmosis.png";
@@ -198,6 +211,7 @@
 					document.getElementById("selector-osmosis").style.background = "aqua";
 					document.getElementById("contenido-titulo").innerHTML = "Ósmosis inversa";
 					document.getElementById("contenido-descripcion").innerHTML = "Purificación de agua mediante una membrana semipermeable para eliminar iones, moléculas, etc.";
+					document.getElementById("conoceMas").href = "servicios.html#ancla-panel";
 				}
 			}
 		</script>

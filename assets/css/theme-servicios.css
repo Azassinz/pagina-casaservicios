@@ -1,4 +1,4 @@
-
+x
 	body{
 		font-family: sans-serif;
 	}
@@ -177,5 +177,10 @@
 		position: fixed;
 		bottom:30px;
 		right:10px;
+	}
+
+	#description{
+		width: 90%;
+		padding-left: 10%; 
 	}
 }

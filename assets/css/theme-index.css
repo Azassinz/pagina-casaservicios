@@ -2588,208 +2588,24 @@
 		height: 123px;
 	}
 
-	.imagen-casa{
-		margin: auto;
-    	position: relative;
-    	display: block;
-    	height: 80%;
-	}
-
-	#casa{
-		height: 100%;
-		width: 100%;	
-		position: relative;
-		z-index:0;
-	}
-
 	#imagen-casa{
-		height: 90%;
-    	width: 57%;
-	}
-
-	#panel-solar {
-		height: 16%;
-		width: 9%;
-	    left: 30%;
-	    top: 13%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	}
-
-	#calentador-solar {
-		height: 24%;
-		width: 9%;
-	    left: 39%;
-	    top: 6%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	}
-
-	#piso-radiante {
-	    width: 17%; 
-	    height: 14%; 
-	    left: 28%;
-	    top: 63%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	    -webkit-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -moz-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -ms-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -o-transform: rotate(-25deg) skew(52deg, 16deg);
-	    transform: rotate(-25deg) skew(52deg, 16deg);
-	}
-
-	#alberca {
-	    width: 12.5%; 
-	    height: 18.5%; 
-	    left: 43.5%;
-	    top: 68%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	    -webkit-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -moz-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -ms-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -o-transform: rotate(-26deg) skew(50deg, 15deg);
-	    transform: rotate(-26deg) skew(50deg, 15deg);
-	}
-
-	#suavizador {
-	     width: 13%; 
-	     height: 18%; 
-	     left: 60.5%;
-	     top: 55%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#suavizador-2{
-	     width: 9%; 
-	     height: 11%; 
-	     left: 69.5%;
-	     top: 71%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#caldera{
-	     width: 2.5%; 
-	     height: 13%; 
-	     left: 35.5%;
-	     top: 41%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#caldera-2{
-	     width: 2%; 
-	     height: 9%; 
-	     left: 55%;
-	     top: 53%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#radiador{
-	     width: 3.5%; 
-	     height: 10%; 
-	     left: 22.5%;
-	     top: 39%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#riego{
-	     width: 1%; 
-	     height: 42%; 
-	     left: 41%;
-	     top: 60%;
-	     cursor: pointer;
-	     position: absolute;
-	     transform: rotate(103deg);
-	     z-index:1;
-	}
-
-	#riego-2{
-	     width: 1%; 
-	     height: 42%; 
-	     left: 57%;
-	     top: 60%;
-	     cursor: pointer;
-	     position: absolute;
-	     transform: rotate(78deg);
-	     z-index:1;
-	}
-
-	#descripcion-casa{
-		width: 40%;
-		height: 15%;
-		border-radius: 100px;
-		background: #b8d2f6;
-		margin-left: 33%;
-		z-index:1;
-	}
-
-	#producto{
-		width: 15%;
-		height: 75%;
-		position: relative;
-    	left: 7%;
-    	top: 12%;
-	}
-
-	.titulo-producto{
-		position: relative;
-	    left: 23%;
-	    top: -85%;
-	    width: 50%;
-	}
-
-	.descripcion-producto{
-		position: relative;
-	    top: -107%;
-	    left: 23%;
-	    height: 72%;
-	    width: 50%;
-	}
-
-	.descripcion-producto > p{
-		color: #000;
-	    font-size: 1em;
-	}
-
-	#conoce-mas{
-		padding: 1%;
-		position: relative;
-	    left: 76%;
-	    top: -170%;
-	    width: 18%;
-	    background-color:  #00cc00;
-	    border-radius: 100px;
+		height: 100%;
+		width: 98%;
 	}
 
 	.selector{
 		position: relative;
-		width: 36%;
-		height: .4%;
-		left: 34%;
-		margin: 1%;
-		background: #b8d2f6;
+		width: 90%;
+		height: 2%;
+		left: 5%;
+		margin-top: 3%;
 	}
 
 	.circle{
 		position: absolute;
 		top: -5px;
-		width: 10px;
-		height: 10px;
+		width: 20px;
+		height: 20px;
 		border-radius: 100%;
 		border: 1px solid #00cc00;
 		background: white;
@@ -2802,37 +2618,93 @@
 	}
 
 	#selector-calentador{
-		left: 14.25%;
+		left: 12.5%;
 	}
 
 	#selector-pisoradiante{
-		left: 28.5%;
+		left: 25%;
 	}
 
 	#selector-alberca{
-		left: 42.75%;
+		left: 37.5%;
 	}
 
 	#selector-suavizador{
-		left: 57%;
+		left: 50%;
 	}
 
 	#selector-caldera{
-		left: 71.25%;
+		left: 62.5%;
 	}
 
 	#selector-radiador{
-		left: 85.5%;
+		left: 75%;
 	}
 
 	#selector-riego{
-		left: 99.75%;
+		left: 87.5%;
 	}
 
-	.productos {
-		display: flex;
-		flex-wrap: wrap;
+	#selector-osmosis{
+		left: 100%;
+	}
+
+	#descripcion-casa{
+	  width: 85%;
+	  margin: 20px auto;
+	  text-align: center;
+	  padding: 20px;
+	  color: white;
+	  background-color: #b8d2f6;
+	  .parent-slide{padding:15px;}
+	  img{display: block;margin:auto;}
+	}
+
+	#producto{
 		width: 100%;
+		height: 75%;
+		position: relative;
+	}
+
+	.titulo-producto{
+		color: #000;
+		position: relative;
+	    top: -85%;
+	    width: 100%;
+	}
+
+	.descripcion-producto{
+		position: relative;
+	    top: -100%;
+	    height: 72%;
+	    width: 100%;
+	}
+
+	.descripcion-producto > p{
+		color: #000;
+	    font-size: 2em;
+	}
+
+	#conoce-mas{
+		padding: 1%;
+		position: relative;
+	    left: 35%;
+	    top: -170%;
+	    width: 30%;
+	    background-color:  #00cc00;
+	    border-radius: 100px;
+	}
+
+	#contenido-titulo{
+		font-size: 2em;
+	}
+
+	#conoce-mas > a{
+		font-size: 1.5em;
+	}
+
+	#imagen-producto{
+		height: 130px;
 	}
 }
 
@@ -3010,208 +2882,24 @@
 		height: 123px;
 	}
 
-	.imagen-casa{
-		margin: auto;
-    	position: relative;
-    	display: block;
-    	height: 80%;
-	}
-
-	#casa{
-		height: 100%;
-		width: 100%;	
-		position: relative;
-		z-index:0;
-	}
-
 	#imagen-casa{
-		height: 90%;
-    	width: 57%;
-	}
-
-	#panel-solar {
-		height: 16%;
-		width: 9%;
-	    left: 30%;
-	    top: 13%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	}
-
-	#calentador-solar {
-		height: 24%;
-		width: 9%;
-	    left: 39%;
-	    top: 6%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	}
-
-	#piso-radiante {
-	    width: 17%; 
-	    height: 14%; 
-	    left: 28%;
-	    top: 63%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	    -webkit-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -moz-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -ms-transform: rotate(-25deg) skew(52deg, 16deg);
-	    -o-transform: rotate(-25deg) skew(52deg, 16deg);
-	    transform: rotate(-25deg) skew(52deg, 16deg);
-	}
-
-	#alberca {
-	    width: 12.5%; 
-	    height: 18.5%; 
-	    left: 43.5%;
-	    top: 68%;
-	    cursor: pointer;
-	    position: absolute;
-	    z-index:1;
-	    -webkit-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -moz-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -ms-transform: rotate(-26deg) skew(50deg, 15deg);
-	    -o-transform: rotate(-26deg) skew(50deg, 15deg);
-	    transform: rotate(-26deg) skew(50deg, 15deg);
-	}
-
-	#suavizador {
-	     width: 13%; 
-	     height: 18%; 
-	     left: 60.5%;
-	     top: 55%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#suavizador-2{
-	     width: 9%; 
-	     height: 11%; 
-	     left: 69.5%;
-	     top: 71%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#caldera{
-	     width: 2.5%; 
-	     height: 13%; 
-	     left: 35.5%;
-	     top: 41%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#caldera-2{
-	     width: 2%; 
-	     height: 9%; 
-	     left: 55%;
-	     top: 53%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#radiador{
-	     width: 3.5%; 
-	     height: 10%; 
-	     left: 22.5%;
-	     top: 39%;
-	     cursor: pointer;
-	     position: absolute;
-	     z-index:1;
-	}
-
-	#riego{
-	     width: 1%; 
-	     height: 42%; 
-	     left: 41%;
-	     top: 60%;
-	     cursor: pointer;
-	     position: absolute;
-	     transform: rotate(103deg);
-	     z-index:1;
-	}
-
-	#riego-2{
-	     width: 1%; 
-	     height: 42%; 
-	     left: 57%;
-	     top: 60%;
-	     cursor: pointer;
-	     position: absolute;
-	     transform: rotate(78deg);
-	     z-index:1;
-	}
-
-	#descripcion-casa{
-		width: 40%;
-		height: 15%;
-		border-radius: 100px;
-		background: #b8d2f6;
-		margin-left: 33%;
-		z-index:1;
-	}
-
-	#producto{
-		width: 15%;
-		height: 75%;
-		position: relative;
-    	left: 7%;
-    	top: 12%;
-	}
-
-	.titulo-producto{
-		position: relative;
-	    left: 23%;
-	    top: -85%;
-	    width: 50%;
-	}
-
-	.descripcion-producto{
-		position: relative;
-	    top: -107%;
-	    left: 23%;
-	    height: 72%;
-	    width: 50%;
-	}
-
-	.descripcion-producto > p{
-		color: #000;
-	    font-size: 1em;
-	}
-
-	#conoce-mas{
-		padding: 1%;
-		position: relative;
-	    left: 76%;
-	    top: -170%;
-	    width: 18%;
-	    background-color:  #00cc00;
-	    border-radius: 100px;
+		height: 100%;
+		width: 98%;
 	}
 
 	.selector{
 		position: relative;
-		width: 36%;
-		height: .4%;
-		left: 34%;
-		margin: 1%;
-		background: #b8d2f6;
+		width: 90%;
+		height: 2%;
+		left: 5%;
+		margin-top: 3%;
 	}
 
 	.circle{
 		position: absolute;
 		top: -5px;
-		width: 10px;
-		height: 10px;
+		width: 20px;
+		height: 20px;
 		border-radius: 100%;
 		border: 1px solid #00cc00;
 		background: white;
@@ -3224,37 +2912,93 @@
 	}
 
 	#selector-calentador{
-		left: 14.25%;
+		left: 12.5%;
 	}
 
 	#selector-pisoradiante{
-		left: 28.5%;
+		left: 25%;
 	}
 
 	#selector-alberca{
-		left: 42.75%;
+		left: 37.5%;
 	}
 
 	#selector-suavizador{
-		left: 57%;
+		left: 50%;
 	}
 
 	#selector-caldera{
-		left: 71.25%;
+		left: 62.5%;
 	}
 
 	#selector-radiador{
-		left: 85.5%;
+		left: 75%;
 	}
 
 	#selector-riego{
-		left: 99.75%;
+		left: 87.5%;
 	}
 
-	.productos {
-		display: flex;
-		flex-wrap: wrap;
+	#selector-osmosis{
+		left: 100%;
+	}
+
+	#descripcion-casa{
+	  width: 85%;
+	  margin: 20px auto;
+	  text-align: center;
+	  padding: 20px;
+	  color: white;
+	  background-color: #b8d2f6;
+	  .parent-slide{padding:15px;}
+	  img{display: block;margin:auto;}
+	}
+
+	#producto{
 		width: 100%;
+		height: 75%;
+		position: relative;
+	}
+
+	.titulo-producto{
+		color: #000;
+		position: relative;
+	    top: -85%;
+	    width: 100%;
+	}
+
+	.descripcion-producto{
+		position: relative;
+	    top: -100%;
+	    height: 72%;
+	    width: 100%;
+	}
+
+	.descripcion-producto > p{
+		color: #000;
+	    font-size: 2em;
+	}
+
+	#conoce-mas{
+		padding: 1%;
+		position: relative;
+	    left: 35%;
+	    top: -170%;
+	    width: 30%;
+	    background-color:  #00cc00;
+	    border-radius: 100px;
+	}
+
+	#contenido-titulo{
+		font-size: 2em;
+	}
+
+	#conoce-mas > a{
+		font-size: 1.5em;
+	}
+
+	#imagen-producto{
+		height: 130px;
 	}
 }
 
