@@ -1,4 +1,4 @@
-#Página web para Casaservicios Blue & Green.
+Página web para Casaservicios Blue & Green.
 Desarrollada utilizando unicamente HTML + CSS + JS.
 Se presentan tres archivos HTML, siendo el inicial el más importante al contar con una casa interactiva que destaca los servicios ofrecidos por la empresa, desde una computadora puedes explorarla pasando el cursor por encima de los objetos de la casa, desde móviles puedes ir clickeando los botones circulares que muestran los distitintos servicios con una breve descripción.
 
